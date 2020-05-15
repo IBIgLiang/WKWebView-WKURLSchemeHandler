@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>webview的OC与JS交互</title>
+    <script src="bltest://test.js"></script>
+    <script>
+        
+        function setupWebViewJavascriptBridge(callback) {
+            if (window.WebViewJavascriptBridge) { return callback(WebViewJavascriptBridge); }
+            if (window.WVJBCallbacks) { return window.WVJBCallbacks.push(callback); }
+            window.WVJBCallbacks = [callback];
+            // 创建一个看不见的iframe,发起一个请求,这个请求用来加载WebViewJavascriptBridge_JS.m中的js代码
+            var WVJBIframe = document.createElement('iframe');
+            WVJBIframe.style.display = 'none';
+            WVJBIframe.src = 'wvjbscheme://__bridge_loaded__';
+            document.documentElement.appendChild(WVJBIframe);
+            setTimeout(function() { document.documentElement.removeChild(WVJBIframe) }, 0)
+        }
+        
+        setupWebViewJavascriptBridge(function(bridge) {
+            
+            /* Initialize your app here */
+
+            // js端注册通信方法
+            bridge.registerHandler('JS2iOS', function(data, responseCallback) {
+                console.log("JS Echo called with:", data)
+                // 回传参数给iOS端
+                responseCallback(data)
+            })
+                                     
+            // js端响应iOS注册的通信方法,传递参数
+            bridge.callHandler('iOS2JS', {'key':'value'}, function responseCallback(responseData) {
+                console.log("JS received response:", responseData)
+                // 接受iOS端回调过来的参数
+                document.getElementById('iOS2JS').innerText=responseData;
+            })
+        })
+        function test () {
+            document.getElementById('iOS2JS').innerText="haaahahahh"
+            var WVJBIframe = document.createElement('iframe');
+            WVJBIframe.style.display = 'none';
+            WVJBIframe.src = 'bltest://test.js';
+            document.documentElement.appendChild(WVJBIframe);
+            setTimeout(function() { document.documentElement.removeChild(WVJBIframe) }, 0)
+        }
+        
+    </script>
+</head>
+<body>
+    
+    <!--  js端响应iOS注册的通信方法,iOS回传的数据 -->
+    <p id="iOS2JS">1111<p>
+    <input type="button" value="点击" onclick="test()" />
+    <input type="button" value="拦截后的操作" onclick="testFunc()" />
+</body>
+</html>
+

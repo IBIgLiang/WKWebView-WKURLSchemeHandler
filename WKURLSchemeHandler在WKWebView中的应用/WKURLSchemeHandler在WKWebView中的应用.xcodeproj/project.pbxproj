@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECF7C80F246EAA8700EF2413 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF7C80E246EAA8700EF2413 /* AppDelegate.m */; };
+		ECF7C812246EAA8700EF2413 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF7C811246EAA8700EF2413 /* SceneDelegate.m */; };
+		ECF7C815246EAA8700EF2413 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF7C814246EAA8700EF2413 /* ViewController.m */; };
+		ECF7C818246EAA8700EF2413 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF7C816246EAA8700EF2413 /* Main.storyboard */; };
+		ECF7C81A246EAA8A00EF2413 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECF7C819246EAA8A00EF2413 /* Assets.xcassets */; };
+		ECF7C81D246EAA8A00EF2413 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECF7C81B246EAA8A00EF2413 /* LaunchScreen.storyboard */; };
+		ECF7C820246EAA8A00EF2413 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF7C81F246EAA8A00EF2413 /* main.m */; };
+		ECF7C82F246EAB0200EF2413 /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF7C827246EAB0200EF2413 /* WebViewJavascriptBridgeBase.m */; };
+		ECF7C830246EAB0200EF2413 /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF7C828246EAB0200EF2413 /* WKWebViewJavascriptBridge.m */; };
+		ECF7C831246EAB0200EF2413 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF7C829246EAB0200EF2413 /* WebViewJavascriptBridge.m */; };
+		ECF7C832246EAB0200EF2413 /* WebViewJavascriptBridge_JS.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF7C82C246EAB0200EF2413 /* WebViewJavascriptBridge_JS.m */; };
+		ECF7C839246EAB3400EF2413 /* CustomURLSchemeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF7C833246EAB3300EF2413 /* CustomURLSchemeHandler.m */; };
+		ECF7C83A246EAB3400EF2413 /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = ECF7C834246EAB3300EF2413 /* index.js */; };
+		ECF7C83B246EAB3400EF2413 /* BLURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF7C835246EAB3300EF2413 /* BLURLProtocol.m */; };
+		ECF7C83C246EAB3400EF2413 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = ECF7C838246EAB3400EF2413 /* index.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ECF7C80A246EAA8700EF2413 /* WKURLSchemeHandler在WKWebView中的应用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WKURLSchemeHandler在WKWebView中的应用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECF7C80D246EAA8700EF2413 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECF7C80E246EAA8700EF2413 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECF7C810246EAA8700EF2413 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		ECF7C811246EAA8700EF2413 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		ECF7C813246EAA8700EF2413 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ECF7C814246EAA8700EF2413 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ECF7C817246EAA8700EF2413 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECF7C819246EAA8A00EF2413 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECF7C81C246EAA8A00EF2413 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECF7C81E246EAA8A00EF2413 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECF7C81F246EAA8A00EF2413 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECF7C827246EAB0200EF2413 /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
+		ECF7C828246EAB0200EF2413 /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		ECF7C829246EAB0200EF2413 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		ECF7C82A246EAB0200EF2413 /* WebViewJavascriptBridge_JS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge_JS.h; sourceTree = "<group>"; };
+		ECF7C82B246EAB0200EF2413 /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
+		ECF7C82C246EAB0200EF2413 /* WebViewJavascriptBridge_JS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge_JS.m; sourceTree = "<group>"; };
+		ECF7C82D246EAB0200EF2413 /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		ECF7C82E246EAB0200EF2413 /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		ECF7C833246EAB3300EF2413 /* CustomURLSchemeHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomURLSchemeHandler.m; path = "../../../../../学习/01-iOS/逻辑教育iOS/iOS进阶到实战(底层原理)/代码/04-08网络相关/03-WebViewJavascriptBridge使用和源码分析/03-WebViewJavascriptBridge使用和源码分析/CustomURLSchemeHandler.m"; sourceTree = "<group>"; };
+		ECF7C834246EAB3300EF2413 /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = index.js; path = "../../../../../学习/01-iOS/逻辑教育iOS/iOS进阶到实战(底层原理)/代码/04-08网络相关/03-WebViewJavascriptBridge使用和源码分析/03-WebViewJavascriptBridge使用和源码分析/index.js"; sourceTree = "<group>"; };
+		ECF7C835246EAB3300EF2413 /* BLURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLURLProtocol.m; path = "../../../../../学习/01-iOS/逻辑教育iOS/iOS进阶到实战(底层原理)/代码/04-08网络相关/03-WebViewJavascriptBridge使用和源码分析/03-WebViewJavascriptBridge使用和源码分析/BLURLProtocol.m"; sourceTree = "<group>"; };
+		ECF7C836246EAB3400EF2413 /* BLURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLURLProtocol.h; path = "../../../../../学习/01-iOS/逻辑教育iOS/iOS进阶到实战(底层原理)/代码/04-08网络相关/03-WebViewJavascriptBridge使用和源码分析/03-WebViewJavascriptBridge使用和源码分析/BLURLProtocol.h"; sourceTree = "<group>"; };
+		ECF7C837246EAB3400EF2413 /* CustomURLSchemeHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomURLSchemeHandler.h; path = "../../../../../学习/01-iOS/逻辑教育iOS/iOS进阶到实战(底层原理)/代码/04-08网络相关/03-WebViewJavascriptBridge使用和源码分析/03-WebViewJavascriptBridge使用和源码分析/CustomURLSchemeHandler.h"; sourceTree = "<group>"; };
+		ECF7C838246EAB3400EF2413 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = "../../../../../学习/01-iOS/逻辑教育iOS/iOS进阶到实战(底层原理)/代码/04-08网络相关/03-WebViewJavascriptBridge使用和源码分析/03-WebViewJavascriptBridge使用和源码分析/index.html"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECF7C807246EAA8700EF2413 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECF7C801246EAA8700EF2413 = {
+			isa = PBXGroup;
+			children = (
+				ECF7C80C246EAA8700EF2413 /* WKURLSchemeHandler在WKWebView中的应用 */,
+				ECF7C80B246EAA8700EF2413 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECF7C80B246EAA8700EF2413 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECF7C80A246EAA8700EF2413 /* WKURLSchemeHandler在WKWebView中的应用.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECF7C80C246EAA8700EF2413 /* WKURLSchemeHandler在WKWebView中的应用 */ = {
+			isa = PBXGroup;
+			children = (
+				ECF7C836246EAB3400EF2413 /* BLURLProtocol.h */,
+				ECF7C835246EAB3300EF2413 /* BLURLProtocol.m */,
+				ECF7C837246EAB3400EF2413 /* CustomURLSchemeHandler.h */,
+				ECF7C833246EAB3300EF2413 /* CustomURLSchemeHandler.m */,
+				ECF7C838246EAB3400EF2413 /* index.html */,
+				ECF7C834246EAB3300EF2413 /* index.js */,
+				ECF7C826246EAB0200EF2413 /* WebViewJavascriptBridge */,
+				ECF7C80D246EAA8700EF2413 /* AppDelegate.h */,
+				ECF7C80E246EAA8700EF2413 /* AppDelegate.m */,
+				ECF7C810246EAA8700EF2413 /* SceneDelegate.h */,
+				ECF7C811246EAA8700EF2413 /* SceneDelegate.m */,
+				ECF7C813246EAA8700EF2413 /* ViewController.h */,
+				ECF7C814246EAA8700EF2413 /* ViewController.m */,
+				ECF7C816246EAA8700EF2413 /* Main.storyboard */,
+				ECF7C819246EAA8A00EF2413 /* Assets.xcassets */,
+				ECF7C81B246EAA8A00EF2413 /* LaunchScreen.storyboard */,
+				ECF7C81E246EAA8A00EF2413 /* Info.plist */,
+				ECF7C81F246EAA8A00EF2413 /* main.m */,
+			);
+			path = "WKURLSchemeHandler在WKWebView中的应用";
+			sourceTree = "<group>";
+		};
+		ECF7C826246EAB0200EF2413 /* WebViewJavascriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				ECF7C827246EAB0200EF2413 /* WebViewJavascriptBridgeBase.m */,
+				ECF7C828246EAB0200EF2413 /* WKWebViewJavascriptBridge.m */,
+				ECF7C829246EAB0200EF2413 /* WebViewJavascriptBridge.m */,
+				ECF7C82A246EAB0200EF2413 /* WebViewJavascriptBridge_JS.h */,
+				ECF7C82B246EAB0200EF2413 /* WebViewJavascriptBridgeBase.h */,
+				ECF7C82C246EAB0200EF2413 /* WebViewJavascriptBridge_JS.m */,
+				ECF7C82D246EAB0200EF2413 /* WebViewJavascriptBridge.h */,
+				ECF7C82E246EAB0200EF2413 /* WKWebViewJavascriptBridge.h */,
+			);
+			path = WebViewJavascriptBridge;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECF7C809246EAA8700EF2413 /* WKURLSchemeHandler在WKWebView中的应用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECF7C823246EAA8A00EF2413 /* Build configuration list for PBXNativeTarget "WKURLSchemeHandler在WKWebView中的应用" */;
+			buildPhases = (
+				ECF7C806246EAA8700EF2413 /* Sources */,
+				ECF7C807246EAA8700EF2413 /* Frameworks */,
+				ECF7C808246EAA8700EF2413 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WKURLSchemeHandler在WKWebView中的应用";
+			productName = "WKURLSchemeHandler在WKWebView中的应用";
+			productReference = ECF7C80A246EAA8700EF2413 /* WKURLSchemeHandler在WKWebView中的应用.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECF7C802246EAA8700EF2413 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = zhangzhiliang;
+				TargetAttributes = {
+					ECF7C809246EAA8700EF2413 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = ECF7C805246EAA8700EF2413 /* Build configuration list for PBXProject "WKURLSchemeHandler在WKWebView中的应用" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECF7C801246EAA8700EF2413;
+			productRefGroup = ECF7C80B246EAA8700EF2413 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECF7C809246EAA8700EF2413 /* WKURLSchemeHandler在WKWebView中的应用 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECF7C808246EAA8700EF2413 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF7C83C246EAB3400EF2413 /* index.html in Resources */,
+				ECF7C81D246EAA8A00EF2413 /* LaunchScreen.storyboard in Resources */,
+				ECF7C81A246EAA8A00EF2413 /* Assets.xcassets in Resources */,
+				ECF7C818246EAA8700EF2413 /* Main.storyboard in Resources */,
+				ECF7C83A246EAB3400EF2413 /* index.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECF7C806246EAA8700EF2413 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECF7C832246EAB0200EF2413 /* WebViewJavascriptBridge_JS.m in Sources */,
+				ECF7C815246EAA8700EF2413 /* ViewController.m in Sources */,
+				ECF7C80F246EAA8700EF2413 /* AppDelegate.m in Sources */,
+				ECF7C83B246EAB3400EF2413 /* BLURLProtocol.m in Sources */,
+				ECF7C820246EAA8A00EF2413 /* main.m in Sources */,
+				ECF7C812246EAA8700EF2413 /* SceneDelegate.m in Sources */,
+				ECF7C82F246EAB0200EF2413 /* WebViewJavascriptBridgeBase.m in Sources */,
+				ECF7C831246EAB0200EF2413 /* WebViewJavascriptBridge.m in Sources */,
+				ECF7C830246EAB0200EF2413 /* WKWebViewJavascriptBridge.m in Sources */,
+				ECF7C839246EAB3400EF2413 /* CustomURLSchemeHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ECF7C816246EAA8700EF2413 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECF7C817246EAA8700EF2413 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECF7C81B246EAA8A00EF2413 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECF7C81C246EAA8A00EF2413 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECF7C821246EAA8A00EF2413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ECF7C822246EAA8A00EF2413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECF7C824246EAA8A00EF2413 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WKURLSchemeHandler在WKWebView中的应用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zzl.WKURLSchemeHandler-WKWebView----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECF7C825246EAA8A00EF2413 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "WKURLSchemeHandler在WKWebView中的应用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zzl.WKURLSchemeHandler-WKWebView----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECF7C805246EAA8700EF2413 /* Build configuration list for PBXProject "WKURLSchemeHandler在WKWebView中的应用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECF7C821246EAA8A00EF2413 /* Debug */,
+				ECF7C822246EAA8A00EF2413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECF7C823246EAA8A00EF2413 /* Build configuration list for PBXNativeTarget "WKURLSchemeHandler在WKWebView中的应用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECF7C824246EAA8A00EF2413 /* Debug */,
+				ECF7C825246EAA8A00EF2413 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECF7C802246EAA8700EF2413 /* Project object */;
+}
